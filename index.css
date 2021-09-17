@@ -1,0 +1,41 @@
+/* div > div > div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 1rem;
+} */
+
+.add {
+  background-color: black;
+  color: white;
+}
+.hellohello {
+  background-color: red;
+  font-size: 5rem;
+}
+.larger {
+  letter-spacing: 15px;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+@media screen and (max-width: 1200px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
