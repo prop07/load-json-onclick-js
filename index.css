@@ -16,25 +16,29 @@
 .larger {
   letter-spacing: 15px;
 }
-nav {
+.center{
+  display: grid;
+  place-items: center;
+}
+.root {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 @media screen and (max-width: 1200px) {
-  nav {
+  .root {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media screen and (max-width: 900px) {
-  nav {
+  .root {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
 @media screen and (max-width: 600px) {
-  nav {
+  .root {
     display: grid;
     grid-template-columns: 1fr;
   }
